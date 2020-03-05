@@ -1,4 +1,6 @@
 # SaferGo
+[功能视频介绍]（）
+**功能总览**
 ![开发思路](https://i.loli.net/2020/03/05/tDxL2z7BqmvK9ok.png)
 
 ## 设计理念
