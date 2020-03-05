@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <item android:title="@string/app_name"
+         android:id="@+id/actionbar"
+         app:actionViewClass="android.support.v7.widget.SearchView" />
+     <item android:id="@+id/homepage" android:title="注销登录"></item>
+     <item android:id="@+id/help" android:title="出行备忘"></item>
+     <item android:id="@+id/feedback" android:title="帮助文档"></item>
+
+</menu>

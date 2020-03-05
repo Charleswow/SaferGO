@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/maintabs_d_notification_title4"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maintabs_d_notification_p10"
+            android:lineSpacingExtra="10dp"
+            android:lineHeight="5dp"
+            android:padding="18dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maintabs_d_notification_p11"
+            android:lineSpacingExtra="10dp"
+            android:lineHeight="5dp"
+            android:padding="18dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maintabs_d_notification_p12"
+            android:lineSpacingExtra="10dp"
+            android:lineHeight="5dp"
+            android:padding="18dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maintabs_d_notification_p13"
+            android:lineSpacingExtra="10dp"
+            android:lineHeight="5dp"
+            android:padding="18dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maintabs_d_notification_p14"
+            android:lineSpacingExtra="10dp"
+            android:lineHeight="5dp"
+            android:padding="18dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

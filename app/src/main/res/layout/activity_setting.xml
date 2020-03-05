@@ -1,0 +1,188 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/menu_item_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/setting_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_marginTop="18dp">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="个人资料"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:textAlignment="gravity"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_well"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_marginTop="1dp">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="魅力值"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:textAlignment="gravity"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_marginTop="20dp">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="消息通知"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:textAlignment="gravity"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_record"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_marginTop="1dp">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="守护记录"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:textAlignment="gravity"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/setting_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_marginTop="1dp">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="辅助功能"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:textAlignment="gravity"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_marginTop="1dp">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="应用信息（权限）"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:textAlignment="gravity"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/setting_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="版本更新"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:textAlignment="gravity"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="已是最新版本"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="20dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="18dp">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="SaferGo团队"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:textAlignment="gravity"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

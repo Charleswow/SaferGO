@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--主题色-->
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#03a9f4</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="windowBackground">#eaeaea</color>
+
+    <!--酷炫黑-->
+    <color name="colorPrimaryDarkBlack">#010001</color>
+    <color name="colorPrimaryBlack">#010001</color>
+    <color name="colorAccentBlack">#010001</color>
+
+    <!--少女红-->
+    <color name="colorPrimaryDarkGreen">#FF5050</color>
+    <color name="colorPrimaryGreen">#FF5050</color>
+    <color name="colorAccentGreen">#FF5050</color>
+
+    <!--胖次蓝-->
+    <color name="colorPrimaryDarkBlue">#4E77FF</color>
+    <color name="colorPrimaryBlue">#4E77FF</color>
+    <color name="colorAccentBlue">#4E77FF</color>
+
+    <!--基佬紫-->
+    <color name="colorPrimaryDarkPurple">#A33DF9</color>
+    <color name="colorPrimaryPurple">#A33DF9</color>
+    <color name="colorAccentPurple">#A33DF9</color>
+
+    <!--活力橙-->
+    <color name="colorPrimaryDarkOrange">#FF9150</color>
+    <color name="colorPrimaryOrange">#FF9150</color>
+    <color name="colorAccentOrange">#FF9150</color>
+
+    <!--大地棕-->
+    <color name="colorPrimaryDarkBrown">#88564D</color>
+    <color name="colorPrimaryBrown">#88564D</color>
+    <color name="colorAccentBrown">#88564D</color>
+    <!--主题色-->
+
+    <color name="themeColor">#ffffff</color>
+    <color name="textColor">#404040</color>
+
+    <!--main_listview_item_color-->
+    <color name="main_color_green">#4bf938</color>
+    <color name="main_color_red">#cc2e07</color>
+    <color name="main_color_blue">#0996ac</color>
+    <color name="main_color_darkblue">#1220e2</color>
+    <color name="main_color_darkgreen">#0d6c03</color>
+    <color name="main_color_pink">#e60daf</color>
+    <color name="main_color_warm">#ec71cd</color>
+    <color name="main_color_purple">#540352</color>
+    <color name="main_color_yellow">#dde10f</color>
+    <color name="role_yellow_gray">#48CFAD</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--main_listview_item_color-->
+
+    <!--login_bgc-->
+    <color name="login_bgc_1">#7adfb8</color>
+    <color name="login_bgc">#81d4fa</color>
+
+    <color name="search_bgc">#81d4fa</color>
+
+    <color name="none">#00000000</color>
+    <color name="click_bg">#e1e1e1</color>
+    <color name="click_bg_bottom">#2699ec</color>
+</resources>

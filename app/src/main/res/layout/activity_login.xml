@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/login_bgc"
+    tools:context=".LoginActivity">
+
+    <include
+        android:id="@+id/login_main_title"
+        layout="@layout/layout_login_title" />
+
+    <LinearLayout
+        android:id="@+id/login_main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_main_title"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="55dip"
+            android:layout_height="55dip"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/login_detail_cir"
+            android:background="@mipmap/safergo"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/slogan"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/login_main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--android:layout_centerInParent="true"-->
+
+        <include
+            android:id="@+id/input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_login_input" />
+
+        <include
+            android:id="@+id/layout_progress"
+            android:layout_width="match_parent"
+            android:layout_height="130dip"
+            layout="@layout/layout_login_progress"
+            android:visibility="gone" >
+
+        </include>
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:visibility="visible"
+            app:indicatorName="BallClipRotatePulseIndicator"
+            app:indicatorColor="@color/colorPrimary" />
+
+        <CheckBox
+            android:id="@+id/cb_mima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_layout"
+            android:layout_marginLeft="12dip"
+            android:text="记住密码"
+            android:textColor="#ffffff"
+            android:checked="false"
+            android:layout_marginStart="80dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_layout"
+            android:layout_toRightOf="@+id/cb_mima"
+            android:layout_marginLeft="12dip"
+            android:text="自动登录"
+            android:textColor="#ffffff"
+            android:checked="false"
+            android:layout_marginStart="20dp"/>
+
+
+        <TextView
+            android:id="@+id/main_btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cb_auto"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dip"
+            android:gravity="center"
+            android:background="@drawable/style_login_radius_drawable_bg"
+            android:paddingBottom="2dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="2dip"
+            android:text="Login"
+            android:textColor="#81d4fa"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_btn_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_btn_login"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dip"
+            android:gravity="center"
+            android:paddingBottom="12dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="12dip"
+            android:text="忘记密码？点击这里"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+        <!--android:background="@drawable/laytext_bg"-->
+    </RelativeLayout>
+
+</RelativeLayout>

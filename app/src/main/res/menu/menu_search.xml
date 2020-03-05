@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="查找好友"
+        android:id="@+id/searchFriends"
+        android:icon="@drawable/maintabs_a_addgroup"></item>
+    <item
+        android:title="查找群组"
+        android:id="@+id/searchGroup"
+        android:icon="@drawable/maintabs_a_addgroup"></item>
+
+</menu>

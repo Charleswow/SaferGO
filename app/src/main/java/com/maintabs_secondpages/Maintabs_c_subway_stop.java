@@ -1,0 +1,59 @@
+package com.maintabs_secondpages;
+
+import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.Window;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
+import com.jack.isafety.R;
+
+public class Maintabs_c_subway_stop extends Activity {
+
+    private WebView subway_stop;
+    
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        setContentView(R.layout.activity_maintabs_c_subway_stop);
+
+        initView();
+
+        subway_stop.loadUrl("https://www.bjsubway.com/mobile/station/xltcx/line1/2013-08-19/3.html");
+
+        subway_stop.setWebViewClient(new WebViewClient(){
+
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view,String url){
+                view.loadUrl(url);
+                return true;
+            }
+        });
+
+        //支持app内js交互
+        subway_stop.getSettings().setJavaScriptEnabled(true);
+
+        //自适应屏幕
+        subway_stop.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
+        subway_stop.getSettings().setLoadWithOverviewMode(true);
+
+        //设置了支持缩放
+        subway_stop.getSettings().setSupportZoom(true);
+
+        //扩大比例缩放
+        subway_stop.getSettings().setUseWideViewPort(true);
+
+        //设置是否出现缩放工具
+        subway_stop.getSettings().setBuiltInZoomControls(true);
+    }
+
+    //初始化
+    private void initView(){
+
+        subway_stop=findViewById(R.id.subway_stop);
+
+    }
+}

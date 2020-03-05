@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jack.isafety">
+
+    <!-- 允许程序打开网络套接字 -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许程序设置内置sd卡的写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 允许程序获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 允许程序访问WiFi网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许程序读写手机状态和身份 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于申请调用A-GPS模块 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <!-- 用于申请获取蓝牙信息进行室内定位 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- 用于位置权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- 存储权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 短信权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 相机权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 定位权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.autofocus" />
+
+    <!-- 震动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/safergo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/safergo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="982dcf54170e678c93b48e76aeff1fc7" />
+
+        <service android:name="com.amap.api.location.APSService" />
+
+        <!-- 登录界面 -->
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 注册界面 -->
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register" />
+        <activity android:name=".MainTabActivity" />
+
+        <!-- 四个主界面 -->
+        <activity
+            android:name=".Maintabs_AActivity"
+            android:label="Friend" />
+        <activity android:name=".Maintabs_BActivity" />
+        <activity
+            android:name=".Maintabs_CActivity"
+            android:label="Moments" />
+        <activity
+            android:name=".Maintabs_DActivity"
+            android:label="Home" />
+
+        <!-- D界面设置 -->
+        <activity
+            android:name=".SettingActivity"
+            android:label="Setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoticeActivity"
+            android:label="Notification" />
+
+        <!-- D界面四个小功能 -->
+        <activity android:name="com.maintabs_d_secondpages.WolfLightActivity" />
+        <activity android:name="com.maintabs_d_secondpages.visual_callActivity" />
+        <activity android:name="com.maintabs_d_secondpages.viusal_voiceActivity" />
+        <activity android:name="com.maintabs_d_secondpages.jietou" />
+
+        <!-- C界面动态文档1 -->
+        <activity
+            android:name=".Main_C_ListItem1"
+            android:label="Share">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Maintabs_CActivity" />
+        </activity>
+
+        <!-- C界面动态文档2 -->
+        <activity
+            android:name=".Main_C_ListItem2"
+            android:label="Share">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Maintabs_DActivity" />
+        </activity>
+
+        <!-- 帮助文档界面 -->
+        <activity
+            android:name="com.maintabs_d_secondpages.HelpActivity"
+            android:label="Help" />
+
+        <!-- D界面历史记录 -->
+        <activity
+            android:name=".HistoryActivity"
+            android:label="History" />
+
+        <!-- 账号安全界面 -->
+        <activity android:name=".IdsafeActivity" />
+
+        <!-- 出行备忘相关界面 -->
+        <activity android:name="com.memorandum.EditActivity" />
+        <activity android:name="com.memorandum.MainActivity" />
+        <activity android:name="com.memorandum.AlarmActivity" />
+
+        <!-- 登录相关界面 -->
+        <activity
+            android:name=".Forget1Activity"
+            android:label="验证邮箱" />
+        <activity
+            android:name=".Forget2Activity"
+            android:label="修改密码" />
+
+        <!-- <activity android:name=".CheckPermissionsActivity"></activity> -->
+
+
+        <!-- A界面添加好友，查询好友界面 -->
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_a_adduser"
+            android:label="Search" />
+        <activity android:name="com.maintabs_d_secondpages.UserActivity" />
+        <activity android:name="com.maintabs_secondpages.Maintabs_a_searchuser" />
+
+
+        <!-- C界面小功能 -->
+        <!-- 地铁 -->
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_subway"
+            android:label="Subway" />
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_subway_others"
+            android:label="地铁官网" />
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_subway_search"
+            android:label="路线查询" />
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_subway_stop"
+            android:label="站点查询" />
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_subway_notice"
+            android:label="乘客须知" />
+        <activity android:name="com.maintabs_secondpages.Maintabs_c_subway_china" />
+
+        <!-- 公交 -->
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_bus"
+            android:label="Bus" />
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_bus_search"
+            android:label="路线查询" />
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_bus_card"
+            android:label="充卡站点" />
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_bus_trip"
+            android:label="旅行推荐" />
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_bus_net"
+            android:label="公交官网" />
+
+        <!-- 公交外网 -->
+        <activity android:name="com.maintabs_secondpages.Maintabs_c_bus_foot1" />
+        <activity android:name="com.maintabs_secondpages.Maintabs_c_bus_foot2" />
+        <activity android:name="com.maintabs_secondpages.Maintabs_c_bus_foot3" />
+        <activity android:name="com.maintabs_secondpages.Maintabs_c_bus_foot4" />
+        <activity android:name="com.maintabs_secondpages.Maintabs_c_bus_foot5" />
+
+        <!-- 飞机 -->
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_plane"
+            android:label="Plane" />
+        <activity android:name="com.maintabs_secondpages.Maintabs_c_plane_guo" />
+
+        <!-- 其他 -->
+        <activity
+            android:name="com.maintabs_secondpages.Maintabs_c_others"
+            android:label="！！！" />
+
+        <!-- D界面更多 -->
+        <activity
+            android:name=".MoreActivity"
+            android:label="More" />
+        <activity
+            android:name="com.maintabs_d_secondpages.More_tools"
+            android:label="Tools" />
+
+        <!-- D界面小便携 -->
+        <activity android:name="com.maintabs_d_secondpages.Go_RecommandActivity" />
+        <activity android:name="com.maintabs_d_secondpages.Go_TicketActivity" />
+        <activity android:name="com.maintabs_d_secondpages.Go_LinksActivity" />
+        <activity android:name="com.maintabs_secondpages.Maintabs_a_group" />
+
+        <service android:name="com.jack.service.BaseService" /> <!-- 绑定一个服务类 -->
+        <activity android:name=".FriendListActivity"
+                  android:label="选择你的小天使"></activity>
+    </application>
+
+</manifest>

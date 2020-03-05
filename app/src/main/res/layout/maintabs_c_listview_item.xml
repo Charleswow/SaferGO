@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:layout_marginTop="1dp">
+    <ImageView
+        android:id="@+id/c_list_header"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/c_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/c_list_header"
+        android:text="标题"/>
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/maintabs_d_body_header_logo4"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/c_list_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/c_list_header"
+        android:textSize="14dp"
+        android:text="内容"
+        android:layout_below="@+id/c_list_title"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="12dp"/>
+    <ImageView
+        android:id="@+id/c_list_image"
+        android:layout_width="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:background="@color/windowBackground"
+        android:layout_below="@+id/c_list_content"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>

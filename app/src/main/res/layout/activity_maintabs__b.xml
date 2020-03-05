@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Maintabs_BActivity">
+
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/protect"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/shape_yuan"
+            android:layout_marginTop="415dp"
+            android:text="导航"
+            android:textColor="@color/white"
+            android:layout_marginLeft="95dp" />
+
+        <Button
+            android:id="@+id/daohang"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="415dp"
+            android:layout_marginLeft="15dp"
+            android:text="守护"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_yuan">
+        </Button>
+
+
+    </com.amap.api.maps.MapView>
+
+
+</RelativeLayout>

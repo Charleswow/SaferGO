@@ -1,0 +1,62 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/minibook_bg_blue"
+    tools:context="com.memorandum.MainActivity">
+
+
+
+     <RelativeLayout
+         android:id="@+id/minibook_header"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:background="@color/colorPrimary">
+         <ImageView
+             android:id="@+id/minibook_back"
+             android:layout_marginTop="3dp"
+             android:layout_width="34dp"
+             android:layout_height="34dp"
+             android:src="@drawable/login_back"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="备忘录"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"
+             android:gravity="center"/>
+     </RelativeLayout>
+    <SearchView
+        android:layout_below="@+id/minibook_header"
+        android:id="@+id/searchView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="@string/search_hint">
+    </SearchView>
+        
+        <ListView 
+            android:layout_below="@id/searchView"
+            android:id="@android:id/list"
+            android:layout_above="@+id/createButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="38dip"
+            android:layout_height="38dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dip"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/minibook_xinjian" />
+     <TextView
+         android:layout_alignParentBottom="true"
+         android:layout_toRightOf="@+id/createButton"
+         android:layout_width="wrap_content"
+         android:layout_marginBottom="18dip"
+         android:layout_height="wrap_content"
+         android:text="添加"
+         android:textColor="@android:color/white"/>
+
+</RelativeLayout>
+

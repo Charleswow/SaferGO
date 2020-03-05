@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">SaferGo</string>
+    <string name="hello">Hello World, iSafe!</string>
+    <string name="slogan">Always With You!</string>
+
+
+    <!--maintab字符串文件-->
+    <string name="main_news">SaferGo</string>
+    <string name="main_home">消息</string>
+    <string name="main_manage_date">发现</string>
+    <string name="main_friends">主页</string>
+    <string name="light_on">打开</string>
+    <string name="light_off">关闭</string>
+    <!--maintab字符串文件-->
+
+    <!--帮助-->
+    <string name="cpt1">登录注册完毕后，首先看到到便是消息与联系人界面，上方卡片包含四个一键功能，具体可在主页小手册或者卡片右上方的说明查看里查看一键功能用法。下方卡片是联系人界面，通过悬浮菜单，你可以输入家人与朋友的昵称（为精准搜索，务必输入正确），即可添加为好友。或者添加群组，以及搜索已经添加的好友群组，于此同时，您可以分享守护，让自己的好友加入对你的守护。</string>
+    <string name="cpt2">在SaferGo界面，在您出行时，可申请好友的守护，开始守护后，对方可以获得您的实时位置信息对您进行守护。在守护过程中，您可以随时关闭位置信息获取。 如果在守护过程中遇到紧急情况，您可以点击一键求助，系统会自动帮您通知您的守护者！</string>
+    <string name="cpt3">在守护结束后，您可以将您的心情和行程晒到“发现”的动态里，与好友们交流。 或者写一写今天的心情日志，记录自己的足迹，于此同时你还可以获取相关帮助，解决SaferGo使用难题。同时在动态卡片的上端有出行查询的卡片，这里我们提供了全国各地的公交，地铁，飞机等查询功能，具体见主页小手册的查询功能介绍～</string>
+    <string name="cpt4">在个人界面，你可以设置自己的详细信息，查看自己的守护记录，账户安全，设置详细组件。同时还附带一些应急辅助小功能: 防狼手电筒:超快的闪光灯，闪瞎坏人的眼睛！ 模拟来电:当自己被骚扰是不想回应就打开它假装自己在通话。模拟语音:录入真人语音，假装好友在和自己发语音，给您多一份保护。位置分享:随时将您的位置分享给微信与qq好友。具体可在小手册中小功能文档中查看。同时，在小便携功能中，提供出行费用，火车购票入口，出行推荐已经神秘的磁力多功能链接。具体可在小手册查看。不仅如此，你还可以设定主题，反馈信息给我们。将SaferGo分享给更多的好友～最后还有个小小出行备忘，您可以记录自己的出行安排在这里，定时提醒您。同时还有一些安全出行的注意事项的手册，帮助您出行更便捷更安全～</string>
+    <!--帮助-->
+
+    <!--动态1-->
+    <string name="p1">俗话说害人之心不可有，防人之心不可无，特别是单身女性打车出行的时候要格外的注意保障自己的人生安全，毕竟坏人总是存在的。</string>
+    <string name="p2">打车的时候要合理规划路线，避免去偏僻的地方城市角落，特别是一个人晚上的时候。同时打车的过程当中要求司机走人多灯亮的路线即使绕路也要走。</string>
+    <string name="p3">打车出行最好是结伴而行，有些时候坏人总是看见对方一个单身女性而临时起意劫财或者劫色，如果找不到结伴而行的人，也要打电话假装有人在目的接待。</string>
+    <string name="p4">上车之前，打电话给家人朋友告诉车上地点，车型车牌号码和上车时间，预计需要的打车时间，然后通知家人朋友在预定的时间点打电话给自己确保安全到达否。</string>
+    <string name="p5">乘车之后尽量避免与司机发生争执，如果面对有司机要电话微信骚扰，可假意顺从，随机应变。上车的时候应坐在后排，不要坐副驾驶。</string>
+    <string name="p6">乘车过程当中，如果天气允许可以把窗户打开，这样一旦发生危险情况也可以及时呼救，同时路人也能看到车内情况说不定也有人会帮忙报警。</string>
+    <string name="p7">不要与陌生人拼车，不要坐来历不名的黑车，即使是价钱很便宜也不要坐，这种情况很多都是有预谋的。</string>
+    <string name="p8">俗话说财不露白，在坐车的过程当中，一些贵重的珠宝首饰电子产品现金等装在包内放好，不要露出来，防止一些坏人临时起意谋财。</string>
+    <string name="p9">遇到危险情况时请及时报警，可以将报警电话设定一个快捷拨号，这样能够最快速度的通知警察。</string>
+    <!--动态1-->
+
+    <!--动态2-->
+    <string name="pp1">驾车出行，财物一定不要外露。比如一些贵重的物品、现金和银行卡手机不要随意的放在副驾座位上，以免引起不法分子的注意。人不在车个，包要随身携带，不好携带的，可以放在座位下或后背箱，不要放在座位上等待明显的地方。</string>
+    <string name="pp2">出门在外，尽量不要携带大量的现金。如需携带大量现金，可开车或打车直至目的地，中间不要逛街，购物。以免出现其他不安全因素。</string>
+    <string name="pp3">出门在外，尽量不要夜间行车。尤其是对路线不熟悉的新手司机，以免走错路线，耽误正常的行程。</string>
+    <string name="pp4">出门在外，不要乘坐黑车或是陌生人的车子。要坐正规的出租车，并记下车牌号码，以及司机的长相等特征，以免发生意外。</string>
+    <string name="pp5">坐公交车时也要特别注意，上车前提前准备好零钱，不去车上拥挤的位置，车上不玩手机，看好自己的个人物品，保持警惕。</string>
+    <string name="pp6">走路时要走大路，不走小道。走人行道时，最好与机动车道保持较远的距离，随身最好背挎包，尽量不背单肩包，行走时包在里侧。</string>
+    <string name="pp7">提前做好出行规划，尽量避开人多的地方，或是天气不好的地方。出行既要安全，也要开心，只有提前做好规划，万事俱备，才能玩的尽兴。</string>
+    <!--动态2-->
+
+
+    <!--备忘录-->
+    <string name="action_settings">Settings</string>
+    <string name="listView">ListView</string>
+    <string name="back">&lt;</string>
+    <string name="timeSet">time set</string>
+    <string name="dateText">datetime</string>
+    <string name="search_hint">搜索记录</string>
+    <string name="search_label">搜索</string>
+    <string name="alertName">事件提醒</string>
+    <string name="positiveButton">查看</string>
+    <string name="negativeButton">忽略</string>
+    <!--备忘录-->
+
+    <!--权限-->
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="gpsNotifyMsg">当前应用需要打开定位功能。\n\n请点击\"设置\"-\"定位服务\"-打开定位功能。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <!--权限-->
+
+    <!--A界面一键功能说明-->
+    <string name="maintabs_a_show_title">一键功能说明</string>
+    <string name="maintabs_a_show_p1">一键功能的意图旨在简化紧急情况下的繁琐操作:</string>
+
+    <string name="maintabs_a_show_p2">一键通话：提前预设好自己最亲切的人的手机号，用于紧急情况发生时直接拨通该手机号。通过长按一键拨号按钮可设置预设手机号。同时在主界面下快速摇动手机也可直接拨通手机号。</string>
+    <string name="maintabs_a_show_p3">一键短信：通过提前预设好自己最亲切的人的手机号，用于紧急情况发生时直接发送短信到此手机号。手机号设置在一键拨号界面，发送短信的模板可提前通过长按一键消息按钮设置。</string>
+    <string name="maintabs_a_show_p4">一键录像：对于外出的你，发现一些突发情况，直接一键录像，跳转到录像界面开始录像，及时记录详细信息。</string>
+    <string name="maintabs_a_show_p5">一键抓拍：发现一些突发情况，直接一键抓拍，拍摄记录。同时，也可以及时抓拍到出行时罕见的风景哟～</string>
+    <string name="maintabs_a_show_p6">一键功能，让生活更便携！</string>
+    <!--A界面一键功能说明-->
+
+    <!--D界面团队介绍-->
+    <string name="maintabs_d_group_title">SaferGo团队介绍</string>
+    <string name="maintabs_d_group_p1">SaferGo团队来自北京市海淀区学院路30号北京科技大学团队，团队目前成员有：宋昆，魏俊峰，胡成成。分别负责软件的后端开发，API挖掘和前段搭建，历时约两个月，完成SaferGo一款出行必备的软件，让您的出行更便携，更安全！</string>
+    <string name="maintabs_d_group_p2">为SaferGo提供建议，可以发送邮件，关注官方微信公众平台，微博等联系我们，改善SaferGo,让SaferGo更适合您！</string>
+    <string name="maintabs_d_group_p3">©SaferGo版权所有</string>
+    <!--D界面团队介绍-->
+
+
+    <!--D界面魅力值-->
+    <string name="maintabs_d_well_title">SaferGo魅力值</string>
+    <string name="maintabs_d_well_p1">说明：魅力值是通过个人守护或被守护的活动来增加，魅力值越高，会在好友界面优先显示。</string>
+    <string name="maintabs_d_well_p2">个人魅力值展示：</string>
+    <!--D界面魅力值-->
+
+    <!--D界面Notication-->
+    <!--守护-->
+    <string name="maintabs_d_notification_title">守护功能说明</string>
+    <string name="maintabs_d_notification_p1">守护界面是确保您出行安全的一大功能，通过亲人爱人的监督，确保你出行的安全性：</string>
+    <string name="maintabs_d_notification_p2">在您出行时，特别是一些偏僻的城镇，通过点击SaferGo界面的守护按钮，选择要请求守护的亲人好友，此时，您的位置信息将实时被好友监控，确保在任何情况您的位置都是好友可视的，一旦紧急情况发生，地点位置都是对您的亲人好友公开的。在您安全到达目的地时，便可关闭守护功能，同时向对方报个平安并表达感谢！还可以增加魅力值。</string>
+    <string name="maintabs_d_notification_p3">同时，在守护过程，还可以利用地图时刻确认自己的位置，防止来到一个新地方不熟悉而被带偏到其他地方，减少不安全因素的发生.</string>
+
+    <string name="maintabs_d_notification_title2">查询功能说明</string>
+    <string name="maintabs_d_notification_p4">查询功能位于发现页面上方卡片里的功能，包括公交查询，地铁查询，飞机查询和其他查询：</string>
+    <string name="maintabs_d_notification_p5">公交查询：分为首都北京和全国各地两种查询。在首都查询中，路线查询功能包括起点到终点的查询，如何中转，换乘公交等等；充卡地点功能包含了北京可以充卡的站点；旅行推荐功能是对北京市旅游的推荐，各个景点的推荐；公交官网功能直接访问北京公交官方网站查询相关信息。同时下方全国查询提供了各大查询引擎，为全国范围内个公交路线查询提供方便～</string>
+    <string name="maintabs_d_notification_p6">地铁查询：分为首都北京和全国各地两种查询。北京市查询中，路线查询为地铁站路线查询并且计算出出行费用；站点信息功能包括地铁各线路站点的详细信息；乘客须知是北京地铁的相关文档说明；卡号查询可以查询您的一卡通的信息并且访问北京地铁官网首页。下方卡片全国搜可以搜索全国地铁，同时导览图界面可以显示各个城市的地铁路线大图～</string>
+    <string name="maintabs_d_notification_p7">飞机查询：提供我国航空公司官网查询的入口，主要包括国航，南航和东航三大航空。提供查询的快捷通道。飞行计划规划您的出行日程～</string>
+    <string name="maintabs_d_notification_p8">其他查询：更多精彩等你发现～</string>
+
+    <string name="maintabs_d_notification_title3">动态功能说明</string>
+    <string name="maintabs_d_notification_p9">类似于微信朋友圈功能，可以发表个人每天的想法，出行记录。同时还会有一些出行的推文，帮助你出行注意安全，出行更加便携！</string>
+
+    <string name="maintabs_d_notification_title4">小道具功能说明</string>
+    <string name="maintabs_d_notification_p10">小道具功能是为了紧急情况发生时的一些虚拟保护体系：</string>
+    <string name="maintabs_d_notification_p11">守护手电：在偏僻地方遭遇坏人，打开闪光，闪光符合人体工学特性的闪光频率，打开后对准坏人，闪光干扰对方并逃离到人多的地方。</string>
+    <string name="maintabs_d_notification_p12">守护来电：内置虚拟通话模式，假装自己在与亲人通话，让坏人不好下手，其中内置语音。</string>
+    <string name="maintabs_d_notification_p13">守护语音：内置虚拟语音模式，通过播放语音，展示自己正在被保护，让换人不好下手。</string>
+    <string name="maintabs_d_notification_p14">位置分享：将此刻的位置分享给好友～</string>
+
+    <string name="maintabs_d_notification_title5">小便携功能说明</string>
+    <string name="maintabs_d_notification_p15">小便携功能提供一些日常出行的便携功能：</string>
+    <string name="maintabs_d_notification_p16">出行费用：出行记录开支，几录您出行费用的走向，以便做出合理的规划～</string>
+    <string name="maintabs_d_notification_p17">出行购票：提供官方购买火车票入口～</string>
+    <string name="maintabs_d_notification_p18">出行推荐：提供旅行推荐，让出行更有目的性，更有性价比～</string>
+    <string name="maintabs_d_notification_p19">磁力链接：更多精彩等你发现～</string>
+    <!--D界面Notication-->
+
+</resources>

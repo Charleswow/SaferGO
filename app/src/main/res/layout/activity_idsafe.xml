@@ -1,0 +1,218 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/menu_item_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/idsafe_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="账号"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:background="@android:color/white"
+                android:textAlignment="gravity"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/idsafe_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="13011111111"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:background="@android:color/white" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="邮箱"
+            android:textColor="@color/textColor"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:background="@android:color/white"
+            android:textAlignment="gravity"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/idsafe_email"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="email@163.com"
+                android:textSize="14dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/idsafe_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="修改密码"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:background="@android:color/white"
+                android:textAlignment="gravity"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/idsafe_original_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@android:color/white"
+            android:layout_marginTop="8dp">
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="输入原密码"
+                android:textColor="@color/textColor"
+                android:inputType="textPassword"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/idsafe_new_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@android:color/white"
+            android:layout_marginTop="1dp">
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="输入新密码"
+                android:textColor="@color/textColor"
+                android:textSize="16dp"
+                android:inputType="textPassword"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical"
+                android:background="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idsafe_new_password_again"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@android:color/white"
+            android:layout_marginTop="1dp">
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="确认新密码"
+                android:textColor="@color/textColor"
+                android:inputType="textPassword"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical"
+                android:background="@android:color/white" />
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确认修改"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/idsafe_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:layout_gravity="center_horizontal"
+            android:text="忘记原密码？点击这里"/>
+
+        <LinearLayout
+            android:id="@+id/idsafe_face"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_marginTop="18dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="人脸识别"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:textAlignment="gravity"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idsafe_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="退出登录"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:textAlignment="gravity"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

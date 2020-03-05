@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'map'
+            keyPassword 'wjf199862'
+            storeFile file('./map.jks')
+            storePassword 'wjf199862'
+        }
+    }
+    compileOptions {
+        incremental = false
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.jack.isafety"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+        }
+    }
+    buildToolsVersion '27.0.3'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.+'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.nightonke:jellytogglebutton:1.0.2'
+    //果冻按钮
+    implementation 'com.github.michaldrabik:tapbarmenu:1.0.5'
+    //浮动菜单
+    implementation 'com.nightonke:boommenu:2.1.1'
+    //爆炸菜单
+    implementation 'com.github.Yalantis:Context-Menu.Android:1.0.8'
+    //actionbar菜单
+    implementation 'com.yw.game.floatmenu:FloatMenu:2.0.1'
+    implementation 'com.wang.avi:library:2.1.3'
+    //加载动画
+    implementation 'com.github.Yalantis:Context-Menu.Android:1.0.8'
+    //actionbar菜单
+    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
+    //搜索框
+    implementation 'com.github.arimorty:floatingsearchview:2.1.1'
+    implementation 'com.android.support:design:28.+'
+    implementation 'com.github.onlynight:LSearchView:1.0.0'
+    //搜索
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation files('libs/AMap3DMap_6.2.0_AMapNavi_6.1.0_AMapSearch_6.1.0_AMapLocation_4.0.1_20180427.jar')
+    implementation files('libs/gson-2.8.5.jar')
+    implementation 'io.socket:socket.io-client:0.8.3'
+
+    //Dialogs
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+
+    implementation 'com.squareup.okhttp3:okhttp:3.13.1'
+
+    implementation 'com.gongwen:marqueelibrary:1.1.3' //跑马灯
+
+    implementation 'com.github.GrenderG:Toasty:1.4.0'//Toast
+
+    implementation 'org.greenrobot:greendao:3.2.2'
+
+    implementation files('libs/json-lib-2.3-jdk15.jar')
+    implementation files('libs/commons-beanutils-1.8.0.jar')
+    implementation files('libs/commons-collections-3.2.1.jar')
+    implementation files('libs/commons-lang-2.5.jar')
+    implementation files('libs/ezmorph-1.0.6.jar')
+    implementation files('libs/commons-logging-1.1.1.jar')
+
+
+}

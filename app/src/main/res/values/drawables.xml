@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--
+    <item type="drawable" name="widget_edit_block_bg_normal">@android:color/transparent</item>
+    <item type="drawable" name="transparent_background">#99000000</item>
+    <item type="drawable" name="list_background">#fff4f4f4</item>
+    <item type="drawable" name="namcard_picker_bkg_normal">#ff272727</item>
+    <item type="drawable" name="namcard_picker_bkg_hover">#ff333333</item>-->
+
+  <!--maintabs资源文件-->
+    <item type="drawable" name="transparent">#00000000</item>
+  <!--maintabs资源文件-->
+</resources>

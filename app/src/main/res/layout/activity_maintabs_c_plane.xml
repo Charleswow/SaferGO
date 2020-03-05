@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.maintabs_secondpages.Maintabs_c_plane"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingBottom="3dp"
+    android:paddingTop="5dp">
+
+
+    <!--搜索框-->
+    <com.arlib.floatingsearchview.FloatingSearchView
+        android:id="@+id/maintabs_c_plane_title"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        app:floatingSearch_searchBarMarginLeft="0dp"
+        app:floatingSearch_searchBarMarginTop="0dp"
+        app:floatingSearch_searchBarMarginRight="0dp"
+        app:floatingSearch_searchHint="Search..."
+        app:floatingSearch_suggestionsListAnimDuration="250"
+        app:floatingSearch_showSearchKey="false"
+        app:floatingSearch_leftActionMode="showHamburger"
+        app:floatingSearch_menu="@menu/menu_search"
+        app:floatingSearch_close_search_on_keyboard_dismiss="true"/>
+
+
+    <!--头部快捷功能-->
+    <LinearLayout
+        android:id="@+id/maintabs_c_plane_header_title"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="@color/themeColor"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/maintabs_c_plane_title"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/maintabs_c_plane_header_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimary"
+            android:text="飞机查询"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"/>
+        <TextView
+            android:id="@+id/miantabs_plane_body_body_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="说明"
+            android:layout_marginLeft="196dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/maintabs_c_plane_header_body"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/maintabs_c_plane_header_title"
+        android:background="@color/themeColor"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/maintabs_c_plane_header_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/maintabs_c_plane_header_logo1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="12dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="国航官网"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/maintabs_c_plane_header_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/maintabs_c_plane_header_logo2"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="14dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="南航官网"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/maintabs_c_plane_header_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/maintabs_c_plane_header_logo3"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="14dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="东航官网"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/maintabs_c_plane_header_4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/drawable_click_bg_change"
+            android:clickable="true"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/maintabs_c_plane_header_logo4"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="其他"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <!--footer-->
+    <LinearLayout
+        android:id="@+id/maintabs_c_plane_body_title"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="@color/themeColor"
+        android:layout_below="@+id/maintabs_c_plane_header_body"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/maintabs_c_subway_body_title"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/main_color_warm"
+            android:text="飞行规划"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"/>
+        <TextView
+            android:id="@+id/miantabs_plane_body_body_show2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="计划"
+            android:layout_marginLeft="194dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/main_color_warm" />
+    </LinearLayout>
+
+    <com.jack.specialEffects.DragZoomImageView
+        android:id="@+id/DragZoonImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="#a7a7a7"
+        android:layout_marginTop="1sp"
+        android:layout_below="@+id/maintabs_c_plane_body_title"
+        android:scaleType="matrix"
+        android:src="@drawable/maintabs_c_worldmap" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--maintabs Id文件-->
+    <item type="id" name="main_radio">false</item>
+    <item type="id" name="radio_button0">false</item>
+    <item type="id" name="radio_button1">false</item>
+    <item type="id" name="radio_button2">false</item>
+    <item type="id" name="radio_button3">false</item>
+    <item type="id" name="radio_button4">false</item>
+    <item name="chazhi_tv" type="id" />
+    <!--maintabs Id文件-->
+</resources>
