@@ -1,5 +1,5 @@
 # SaferGo
-[软件视频介绍]（）
+[软件视频介绍]（https://www.bilibili.com/video/av93897381/）
 
 ## 功能总览图
 ![开发思路](https://i.loli.net/2020/03/05/tDxL2z7BqmvK9ok.png)
